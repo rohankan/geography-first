@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_youtube_header"
+        android:title="@string/youtubeheader"
+        app:showAsAction="never"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/menu_youtube_currentevents"
+        android:title="@string/curev"
+        app:showAsAction="never"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/menu_youtube_savedarticles"
+        android:title="@string/saved_articles"
+        app:showAsAction="never"
+        android:orderInCategory="3" />
+    <item android:id="@+id/menu_youtube_information"
+        android:title="@string/information"
+        app:showAsAction="never"
+        android:orderInCategory="4" />
+    <item android:id="@+id/menu_youtube_other"
+        android:title="@string/other"
+        app:showAsAction="never"
+        android:orderInCategory="5" />
+</menu>

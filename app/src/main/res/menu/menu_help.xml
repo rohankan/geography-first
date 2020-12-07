@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_action_videoseek"
+        android:icon="@drawable/ic_action_seekvideo"
+        android:orderInCategory="1"
+        android:title="@string/svptt"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/menu_action_email"
+        android:icon="@drawable/ic_action_email"
+        android:orderInCategory="2"
+        android:title="@string/se"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/menu_action_back"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_action_undo_delete"
+        android:title="@string/go_back"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

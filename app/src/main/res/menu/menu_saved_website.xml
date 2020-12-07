@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/return_saved_web"
+        android:icon="@drawable/ic_action_undo_delete"
+        app:showAsAction="always"
+        android:title="@string/go_back" />
+
+    <item android:id="@+id/delete_saved_web"
+        android:icon="@drawable/ic_action_delete"
+        app:showAsAction="ifRoom"
+        android:title="@string/delete_saved_website" />
+
+</menu>

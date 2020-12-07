@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.ropkastudios.android.thegeographyapp">
+
+<uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="com.android.vending.BILLING" />
+
+<application android:allowBackup="true" android:icon="@drawable/geofirstlogo" android:label="@string/app_name"
+    android:supportsRtl="true" android:theme="@style/AppTheme">
+
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCuRltpyraNxbYxYwEpL9gQFlXdCp4W9sQ" />
+
+    <provider
+        android:name="android.support.v4.content.FileProvider"
+        android:authorities="com.ropkastudios.android.thegeographyapp.fileprovider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/file_paths"/>
+    </provider>
+
+    <activity android:name="com.ropkastudios.android.thegeographyapp.MainMenuActivity" android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name="com.ropkastudios.android.thegeographyapp.ContentPagerActivity"
+        android:label="@string/pager" android:configChanges="orientation|screenSize"
+        android:windowSoftInputMode="stateHidden" android:theme="@style/AppTheme" />
+    <activity android:name="com.ropkastudios.android.thegeographyapp.InfoContentPagerActivity"
+        android:label="@string/title_activity_info_content_pager" android:theme="@style/AppTheme" />
+    <activity android:name="com.ropkastudios.android.thegeographyapp.MapDataResultActivity"
+        android:label="@string/data_result_map" android:theme="@style/AppTheme" />
+    <activity android:name="com.ropkastudios.android.thegeographyapp.MapViewer" android:label="@string/map_viewer"
+        android:theme="@style/AppTheme" />
+    <activity android:name="com.ropkastudios.android.thegeographyapp.WebPageActivity" android:label="@string/browser"
+        android:theme="@style/AppTheme" />
+    <activity android:name="com.ropkastudios.android.thegeographyapp.YoutubeActivity" android:label="@string/htu"
+        android:theme="@style/AppTheme" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" />
+    <activity android:name="com.ropkastudios.android.thegeographyapp.BasicTextInputActivity" android:label="@string/change_text_colon"
+        android:theme="@style/AppTheme" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" />
+</application>
+
+</manifest>

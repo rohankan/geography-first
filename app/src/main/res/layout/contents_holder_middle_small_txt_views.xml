@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_holder="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginStart="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:singleLine="false"
+        android:text="Medium Text"
+        android:id="@+id/contents_holder_m_s_txt_views_title_text_view" />
+
+    <android.support.v7.widget.CardView android:id="@+id/contents_holder_m_s_txt_view_ecardview"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        card_holder:cardElevation="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        card_holder:cardUseCompatPadding="true"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/layout_contents_holder_open_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/opencloseimage"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/ic_action_name"/>
+            <ImageView android:id="@+id/contents_holder_m_s_txt_views_contents_text_image_view"
+                android:layout_width="match_parent"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/cimage"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView android:id="@+id/contents_holder_m_s_txt_views_contents_card_view"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        card_holder:cardElevation="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        card_holder:cardUseCompatPadding="true"
+        card_holder:cardCornerRadius="3dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="?attr/selectableItemBackground"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/link_blue"
+            android:singleLine="false"
+            android:id="@+id/contents_holder_ms_txt_views_contents_content_text_view"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView android:id="@+id/contents_holder_m_s_txt_view__map_view_text"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        card_holder:cardElevation="1dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        card_holder:cardUseCompatPadding="true"
+        android:background="@drawable/transp_map_img"
+        card_holder:cardCornerRadius="3dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="@color/black"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@drawable/transp_map_img"
+            android:gravity="center"
+            android:id="@+id/contents_holder_m_s_txt_view__map_view_btn"/>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

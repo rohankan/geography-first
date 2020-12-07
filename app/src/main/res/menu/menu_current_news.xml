@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/reload"
+        android:id="@+id/menu_rss_reload"
+        android:icon="@drawable/ic_action_reload"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="@string/nationalgeographicnews"
+        android:id="@+id/menu_rss_natgeo"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/bbc"
+        android:id="@+id/menu_rss_bbc"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/sciencedailynews"
+        android:id="@+id/menu_rss_sciencedaily"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/cnn"
+        android:id="@+id/menu_rss_cnn"
+        app:showAsAction="never"/>
+
+
+</menu>

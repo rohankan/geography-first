@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/asdlf" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nat_geo_news"
+            android:icon="@drawable/ic_action_read"
+            android:title="@string/curev" />
+        <item
+            android:id="@+id/nav_spec_info"
+            android:icon="@drawable/ic_action_dark_pin"
+            android:title="@string/saved_articles" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_action_dark_search"
+            android:title="@string/information" />
+        <!--<item
+            android:id="@+id/nav_quiz_flashcards"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/quizzes_flashcards" />
+        <item
+            android:id="@+id/nav_access_notes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/access_notes" />-->
+    </group>
+
+    <group android:id="@+id/lala" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_action_tutorial"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_action_email"
+            android:title="@string/sae" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_action_rate"
+            android:title="@string/rar" />
+        <item
+            android:id="@+id/nav_purchase"
+            android:icon="@drawable/noad_icon"
+            android:title="@string/purchasenav" />
+    </group>
+
+</menu>

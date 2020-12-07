@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.ropkastudios.android.geographyfirst.BasicTextInputActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_basic_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            app:cardElevation="3dp">
+
+
+            <RelativeLayout android:id="@+id/dialog_basic_linearLayout"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView android:id="@+id/insert_holder"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginEnd="35dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:textColor="@color/black"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/insert_special_chars_colon"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+                            <Button android:id="@+id/bullet"
+                                style="?android:attr/buttonBarButtonStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="25"
+                                android:layout_height="wrap_content"
+                                android:text="@string/bullet"
+                                android:textColor="@color/black"
+                                android:background="?attr/selectableItemBackground"/>
+                            <Button android:id="@+id/wbullet"
+                                style="?android:attr/buttonBarButtonStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="25"
+                                android:layout_height="wrap_content"
+                                android:text="@string/wbullet"
+                                android:textColor="@color/black"
+                                android:background="?attr/selectableItemBackground"/>
+                            <Button android:id="@+id/rarrow"
+                                style="?android:attr/buttonBarButtonStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="25"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rarrow"
+                                android:textColor="@color/black"
+                                android:background="?attr/selectableItemBackground"/>
+                            <Button android:id="@+id/box"
+                                style="?android:attr/buttonBarButtonStyle"
+                                android:layout_width="0dp"
+                                android:layout_weight="25"
+                                android:layout_height="wrap_content"
+                                android:text="@string/box"
+                                android:textColor="@color/black"
+                                android:background="?attr/selectableItemBackground"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <EditText android:id="@+id/dialog_basic_text_input_edit_text"
+                    android:layout_below="@id/insert_holder"
+                    android:inputType="textCapSentences|textAutoComplete|textMultiLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp"
+                    android:singleLine="false" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

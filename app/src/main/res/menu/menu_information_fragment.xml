@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/fragment_information_action_search"
+        android:orderInCategory="97"
+        android:title="@string/search_category"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/fragment_information_action_add"
+        android:orderInCategory="98"
+        android:title="@string/add_a_category"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/fragment_information_action_delete"
+        android:orderInCategory="99"
+        android:title="@string/delete_a_category"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/fragment_information_action_change"
+        android:title="@string/update_category"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+    </item>
+</menu>

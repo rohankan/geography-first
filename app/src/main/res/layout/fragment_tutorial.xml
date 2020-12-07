@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tscroll_view"
+    android:layout_width="match_parent"
+    android:background="@drawable/bglobe"
+    android:layout_height="match_parent"
+    xmlns:card_holder="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/tutorial_oll"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView android:id="@+id/tutorial_one"
+                    android:layout_width="match_parent"
+                    card_holder:cardElevation="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/maintain_ripple"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/maintain_ripple"
+                        android:layout_height="match_parent">
+                        <ImageView android:id="@+id/timage_1"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_action_dark_search"/>
+                        <android.support.v4.widget.Space android:id="@+id/tspace_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="16dp" />
+                        <TextView android:id="@+id/ttv_1"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="16dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/information"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView android:id="@+id/tbtv_1"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginRight="16dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/information"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/tutorial_two"
+                    android:layout_width="match_parent"
+                    card_holder:cardElevation="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/maintain_ripple"
+                        android:layout_height="match_parent">
+                        <ImageView android:id="@+id/timage_2"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_action_read"/>
+                        <android.support.v4.widget.Space android:id="@+id/tspace_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="16dp" />
+                        <TextView android:id="@+id/ttv_2"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="16dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/curev"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView android:id="@+id/tbtv_2"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginRight="16dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/information"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/tutorial_three"
+                    android:layout_width="match_parent"
+                    card_holder:cardElevation="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/maintain_ripple"
+                        android:layout_height="match_parent">
+                        <ImageView android:id="@+id/timage_3"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_action_dark_pin"/>
+                        <android.support.v4.widget.Space android:id="@+id/tspace_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="16dp" />
+                        <TextView android:id="@+id/ttv_3"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="16dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/saved_articles"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView android:id="@+id/tbtv_3"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginRight="16dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/information"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/tutorial_four"
+                    android:layout_width="match_parent"
+                    card_holder:cardElevation="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/maintain_ripple"
+                        android:layout_height="match_parent">
+                        <ImageView android:id="@+id/timage_4"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_action_dark_drawer"/>
+                        <android.support.v4.widget.Space android:id="@+id/tspace_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="16dp" />
+                        <TextView android:id="@+id/ttv_4"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="16dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/dm"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView android:id="@+id/tbtv_4"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginRight="16dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/information"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/tutorial_five"
+                    android:layout_width="match_parent"
+                    card_holder:cardElevation="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@drawable/maintain_ripple"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView android:id="@+id/timage_5"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_action_tutorial"/>
+                        <android.support.v4.widget.Space android:id="@+id/tspace_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="16dp" />
+                        <TextView android:id="@+id/ttv_5"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="16dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/other"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView android:id="@+id/tbtv_5"
+                            android:gravity="center_horizontal"
+                            android:layout_marginBottom="24dp"
+                            android:layout_marginLeft="24dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginRight="16dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/information"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <android.support.v7.widget.CardView android:id="@+id/videocardview"
+            android:layout_width="match_parent"
+            card_holder:cardElevation="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/maintain_ripple"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="@drawable/maintain_ripple"
+                android:layout_height="match_parent">
+                <FrameLayout
+                    android:id="@+id/videoframelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+                <android.support.v4.widget.Space android:id="@+id/videospace"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp" />
+                <TextView android:id="@+id/videotoptv"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/information"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView android:id="@+id/videobottomtv"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginRight="16dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/information"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
